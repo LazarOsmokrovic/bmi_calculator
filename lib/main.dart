@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Starter pack',
+      title: 'BMI Calculator',
       theme: ThemeData(
-        accentColor: color_blue_dark,
+        primaryColor: color_blue_dark,
         canvasColor: color_white,
       ),
       initialRoute: RouteGenerator.SPLASH_ROUTE,

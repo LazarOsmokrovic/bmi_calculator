@@ -29,6 +29,7 @@ class InternetScaffold extends StatelessWidget {
         }
       },
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         backgroundColor: backgroundColor,
         appBar: appBar,
         body: SafeArea(

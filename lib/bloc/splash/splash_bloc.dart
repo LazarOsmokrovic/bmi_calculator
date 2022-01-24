@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meta/meta.dart';
 import 'package:starter_pack/route_generator.dart';
 
 part 'splash_event.dart';
@@ -16,7 +15,7 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
   @override
   Stream<SplashState> mapEventToState(SplashEvent event) async* {
     if(event is InitialSplashEvent) {
-      await Future<void>.delayed(const Duration(milliseconds: 500));
+      await Future<void>.delayed(const Duration(milliseconds: 1000));
       Navigator.of(context).popAndPushNamed(RouteGenerator.MAIN_ROUTE);
     }
   }

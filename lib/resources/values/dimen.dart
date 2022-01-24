@@ -17,3 +17,13 @@ const double padding_medium = 12.0;
 const double padding = 8.0;
 const double padding_small = 4.0;
 const double padding_min = 2.0;
+
+const double font_size_larger = 24;
+const double font_size_large = 20;
+const double font_size = 16;
+
+const double icon_size = 34;
+
+const double alert_container_size = 60;
+
+const double border_radius = 30;

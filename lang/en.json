@@ -1,4 +1,35 @@
 {
-    "splash_route_title" : "Splash route",
-    "main_route_title" : "Main route"
+    "splash_route_title" : "BMI\nCalculator",
+
+    "main_route_title" : "Bmi Calculator",
+    "main_route_open_wizard" : "Open Wizard",
+    "main_route_bmi_result_title_text" : "Last Answers:",
+    "main_route_height_text" : "Height",
+    "main_route_weight_text" : "Weight",
+    "main_route_bmi_text" : "BMI",
+    "main_route_answer_one_text" : "Q1",
+    "main_route_answer_two_text" : "Q2",
+    "main_route_answer_three_text" : "Q3",
+    "main_route_answer_four_text" : "Q4",
+    "main_route_answer_five_text" : "Q5",
+
+    "wizard_route_bmi_title_text" : "BMI",
+    "wizard_route_height_title_text" : "Height",
+    "wizard_route_weight_title_text" : "Weight",
+    "wizard_route_continue_button" : "Continue",
+    "wizard_route_save_and_quit_button" : "Save and quit",
+
+    "additional_questions_route_question_one" : "Question 1",
+    "additional_questions_route_question_two" : "Question 2",
+    "additional_questions_route_question_three" : "Question 3",
+    "additional_questions_route_question_four" : "Question 4",
+    "additional_questions_route_question_five" : "Question 5",
+    "additional_questions_route_no_answer" : "No answer",
+    "additional_questions_route_radio_button_yes" : "Yes",
+    "additional_questions_route_radio_button_no" : "No",
+    "additional_questions_route_save_and_quit_button" : "Save and quit",
+
+    "alert_dialog_discard_changes" : "You didn't update changes",
+    "alert_dialog_save_changes" : "Changes updated"
+
 }
